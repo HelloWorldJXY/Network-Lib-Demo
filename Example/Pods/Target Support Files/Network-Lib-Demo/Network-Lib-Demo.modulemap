@@ -1,6 +1,0 @@
-framework module Network_Lib_Demo {
-  umbrella header "Network-Lib-Demo-umbrella.h"
-
-  export *
-  module * { export * }
-}
