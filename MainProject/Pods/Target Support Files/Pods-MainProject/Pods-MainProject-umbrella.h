@@ -10,8 +10,7 @@
 #endif
 #endif
 
-#import "LogManager.h"
 
-FOUNDATION_EXPORT double Network_Lib_DemoVersionNumber;
-FOUNDATION_EXPORT const unsigned char Network_Lib_DemoVersionString[];
+FOUNDATION_EXPORT double Pods_MainProjectVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_MainProjectVersionString[];
 

@@ -1,0 +1,16 @@
+PODS:
+  - Network-Lib-Demo (0.1.0)
+
+DEPENDENCIES:
+  - Network-Lib-Demo (from `../Network-Lib-Demo`)
+
+EXTERNAL SOURCES:
+  Network-Lib-Demo:
+    :path: "../Network-Lib-Demo"
+
+SPEC CHECKSUMS:
+  Network-Lib-Demo: 416a9efc6b174fe78e42043b6e5504cb3e057fc0
+
+PODFILE CHECKSUM: 05ae76489a95836cfe85921d1efe2fb0cc60dbc8
+
+COCOAPODS: 1.9.1
