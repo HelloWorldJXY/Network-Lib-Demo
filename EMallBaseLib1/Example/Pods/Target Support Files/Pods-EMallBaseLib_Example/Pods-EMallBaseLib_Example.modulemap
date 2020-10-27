@@ -1,0 +1,6 @@
+framework module Pods_EMallBaseLib_Example {
+  umbrella header "Pods-EMallBaseLib_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

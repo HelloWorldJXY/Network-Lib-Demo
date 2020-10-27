@@ -1,0 +1,22 @@
+{
+  "name": "EMallBaseLib",
+  "version": "0.1.0",
+  "summary": "A short description of EMallBaseLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/448745259@qq.com/EMallBaseLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "448745259@qq.com": "jiaxiaoyan001@lianjia.com"
+  },
+  "source": {
+    "git": "https://github.com/448745259@qq.com/EMallBaseLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EMallBaseLib/Classes/**/*"
+}

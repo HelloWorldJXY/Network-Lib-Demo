@@ -1,0 +1,6 @@
+framework module EMallBaseLib {
+  umbrella header "EMallBaseLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - EMallBaseLib (0.1.0)
+
+DEPENDENCIES:
+  - EMallBaseLib (from `../`)
+
+EXTERNAL SOURCES:
+  EMallBaseLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EMallBaseLib: 4b71503cb6bc6e393b71a1ca6b2d24329ce00ead
+
+PODFILE CHECKSUM: d2c959dd067b98fad60f9c2727df622da4f7783f
+
+COCOAPODS: 1.9.1
