@@ -18,5 +18,15 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "EMallBaseLib/Classes/**/*"
+  "source_files": "EMallBaseLib/Classes/**/*",
+  "resource_bundles": {
+    "EMallBaseLib": [
+      "EMallBaseLib/Assets/**/*.{xcassets}"
+    ]
+  },
+  "public_header_files": "EMallBaseLib/Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ]
 }

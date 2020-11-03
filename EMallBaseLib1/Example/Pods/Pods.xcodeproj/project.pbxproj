@@ -7,25 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F361D868E8314DCDEB5B484160E1A2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		224AFC7F484BA5AAF356BE80F9D62F9D /* EMallBaseLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4B8B1859B5F28890B1F9BEA8FC63FC /* EMallBaseLib-dummy.m */; };
-		22AF9BB57CCCCE00A545B63A0DA6E125 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E4D6FF3931FC080BB9B975841CFAAC /* ReplaceMe.m */; };
-		2301554CFA73936CBC2C449876DC54AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		375875F71D554B5E046AF8EFFB006264 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		63B3F67C3B71FC93E8693B4E907843AE /* Pods-EMallBaseLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 162107F8AAB3D3BC77B5487D90FCA132 /* Pods-EMallBaseLib_Tests-dummy.m */; };
-		7379A8DDA0B44056F83FB9E9B05BD922 /* Pods-EMallBaseLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C1EF1BE8467D70BED409D6282B410CD /* Pods-EMallBaseLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		823028F4AA7C7B1C669262DCB6FD208B /* Pods-EMallBaseLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 456BCCCFC407419540C87AEDB76DD5B5 /* Pods-EMallBaseLib_Example-dummy.m */; };
-		A977C3029BAAB84D0F13314D9C3E1CDE /* Pods-EMallBaseLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F879B0AC303820D2B878175AA2F85E50 /* Pods-EMallBaseLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F09F286D22C567FE34F8EA2CC406EF7A /* EMallBaseLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19BF48C1C9D8C0E5980069F7F4A9DA76 /* EMallBaseLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		156DEC856F11D7B32D8327EB77ECF7B8 /* EMallBaseLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39BC33E472DE048FB1A393B8F4E7BE7E /* EMallBaseLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C81AC4A74F9295D06E2FFD99374FE84 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EFDA54E25DC04979CF8E8569639889 /* ReplaceMe.m */; };
+		1F361D868E8314DCDEB5B484160E1A2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D890BC086331CFA5853025C62B1CD9 /* Foundation.framework */; };
+		31688B5FD55907015C7FB9B89AB361FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D890BC086331CFA5853025C62B1CD9 /* Foundation.framework */; };
+		3E07068D9296B81833CCB261736FAAEF /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AC562E6E6FF087FB29B4DCB2855A1AA /* Media.xcassets */; };
+		436806F693DE511CDCDC895DE9F22F50 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5463EDB7D7C34B483552ABC921A26BE3 /* MapKit.framework */; };
+		60F0360C685D1543FA3D1D2826DAB7DA /* TestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 05DAF1FE303D0F13C52DC364E35B7F4B /* TestViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		823028F4AA7C7B1C669262DCB6FD208B /* Pods-EMallBaseLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E39874438C6439E57235C1C68434EBF /* Pods-EMallBaseLib_Example-dummy.m */; };
+		910E7B0C28D11A350BA8894BD9AAA814 /* EMallBaseLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F088A99358AFFADDD4E255AACC6C3AF3 /* EMallBaseLib-dummy.m */; };
+		A977C3029BAAB84D0F13314D9C3E1CDE /* Pods-EMallBaseLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6EDF6DBC798B606D33C950193E8370D /* Pods-EMallBaseLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBAC5ABB19C5546B63CA71AB8A5E79A7 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD558ACFABB1D3BA54861D206EFE611 /* TestViewController.m */; };
+		D858673C9EDA1D77CEFA432A124DB7F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B31A15AEF545E8EBA9DB87FB9D5747D /* UIKit.framework */; };
+		EEA0580F6E9E73D45FFB42DC88067FAF /* EMallBaseLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EA1110C713B7F4DFE04BA5CBBE5E9355 /* EMallBaseLib.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E465F7341B6D917C9347ED8F98213066 /* PBXContainerItemProxy */ = {
+		0AC0F4D65F464158D9E71100545FC600 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 44DD98AF4929107B81622486779D83D0;
-			remoteInfo = "Pods-EMallBaseLib_Example";
+			remoteGlobalIDString = 39E26B0A76A7C3A7181B11B8E2FA470B;
+			remoteInfo = "EMallBaseLib-EMallBaseLib";
 		};
 		ED12152DA630D696BFB7532D48DC7262 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -37,58 +40,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		022D57E6317D2D1D6A9E694A5A33E126 /* Pods-EMallBaseLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMallBaseLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		03FCA089805E074CE8BC1149DDBFF5CF /* Pods-EMallBaseLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMallBaseLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		058687E4CA36198B14076AE053B521EE /* Pods-EMallBaseLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMallBaseLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		05DAF1FE303D0F13C52DC364E35B7F4B /* TestViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestViewController.h; path = EMallBaseLib/Classes/TestViewController.h; sourceTree = "<group>"; };
 		06991FB05B5FB3C0BBD35D8D39B4BE1E /* Pods_EMallBaseLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EMallBaseLib_Example.framework; path = "Pods-EMallBaseLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		162107F8AAB3D3BC77B5487D90FCA132 /* Pods-EMallBaseLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EMallBaseLib_Tests-dummy.m"; sourceTree = "<group>"; };
-		19BF48C1C9D8C0E5980069F7F4A9DA76 /* EMallBaseLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMallBaseLib-umbrella.h"; sourceTree = "<group>"; };
-		20D2179A66907923116A1AC3F8410085 /* EMallBaseLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EMallBaseLib.release.xcconfig; sourceTree = "<group>"; };
-		22F4F8EA8839F1F04B35DCE4E750D27D /* Pods-EMallBaseLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EMallBaseLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		26E4D6FF3931FC080BB9B975841CFAAC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = EMallBaseLib/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		32E3F4C064230D38510A5D4E13B10C93 /* EMallBaseLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EMallBaseLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3783549D1D233138F35B20ED9C49D297 /* Pods-EMallBaseLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EMallBaseLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		456BCCCFC407419540C87AEDB76DD5B5 /* Pods-EMallBaseLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EMallBaseLib_Example-dummy.m"; sourceTree = "<group>"; };
-		4A4B8B1859B5F28890B1F9BEA8FC63FC /* EMallBaseLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMallBaseLib-dummy.m"; sourceTree = "<group>"; };
-		51EF7AE45622484B70023653240E2AA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		5C4DC938C1B1B406979DC431A4068BEB /* EMallBaseLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EMallBaseLib-Info.plist"; sourceTree = "<group>"; };
-		696C865E9CA851EAC2FFF8AD36B7AC6F /* EMallBaseLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMallBaseLib-prefix.pch"; sourceTree = "<group>"; };
-		6B625684925195053D63563859CFB72E /* Pods-EMallBaseLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EMallBaseLib_Example-Info.plist"; sourceTree = "<group>"; };
-		7C1EF1BE8467D70BED409D6282B410CD /* Pods-EMallBaseLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EMallBaseLib_Tests-umbrella.h"; sourceTree = "<group>"; };
-		80D6A296E352536384279F647C5ACC10 /* Pods-EMallBaseLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EMallBaseLib_Tests-Info.plist"; sourceTree = "<group>"; };
-		9942053D3B089691014505F01C2848CA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0AD558ACFABB1D3BA54861D206EFE611 /* TestViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestViewController.m; path = EMallBaseLib/Classes/TestViewController.m; sourceTree = "<group>"; };
+		16EFDA54E25DC04979CF8E8569639889 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = EMallBaseLib/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		236B4E214669949F604541F96B22FB8C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		39BC33E472DE048FB1A393B8F4E7BE7E /* EMallBaseLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMallBaseLib-umbrella.h"; sourceTree = "<group>"; };
+		4AC562E6E6FF087FB29B4DCB2855A1AA /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = EMallBaseLib/Assets/Media.xcassets; sourceTree = "<group>"; };
+		4C17074CF1A0FDC5407009921495CBA1 /* EMallBaseLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EMallBaseLib-Info.plist"; sourceTree = "<group>"; };
+		52D890BC086331CFA5853025C62B1CD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5463EDB7D7C34B483552ABC921A26BE3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		5B31A15AEF545E8EBA9DB87FB9D5747D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5EC3987A7043FB49629AE0FB2BB6BFC0 /* Pods-EMallBaseLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EMallBaseLib_Example-Info.plist"; sourceTree = "<group>"; };
+		63D256A385E1CDA6D46A7DEB00E1D26A /* EMallBaseLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMallBaseLib-prefix.pch"; sourceTree = "<group>"; };
+		79F52598EE1B3F765A9609EC4EAB1A8C /* Pods-EMallBaseLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EMallBaseLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8E39874438C6439E57235C1C68434EBF /* Pods-EMallBaseLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EMallBaseLib_Example-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A19A26BD0BAA316F587E0698CD2FB8A7 /* Pods-EMallBaseLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMallBaseLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AC526FFB59EA8E701756CE550A31A41C /* Pods-EMallBaseLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EMallBaseLib_Tests.modulemap"; sourceTree = "<group>"; };
-		C533C8A73ED6664023C43F14858CB75C /* EMallBaseLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EMallBaseLib.debug.xcconfig; sourceTree = "<group>"; };
-		CCB817CAF634A3895B4873B5606401E5 /* Pods-EMallBaseLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EMallBaseLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D12D20924515A857C592FA99D418947D /* Pods_EMallBaseLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EMallBaseLib_Tests.framework; path = "Pods-EMallBaseLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA4F298987B0FA0A4CAD6C14893BC2EF /* Pods-EMallBaseLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EMallBaseLib_Example.modulemap"; sourceTree = "<group>"; };
-		DEFEAC2657AE28F08270381BC4B7B98E /* Pods-EMallBaseLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EMallBaseLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DFEF6143E04B6BFCD75155E504B78D41 /* Pods-EMallBaseLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EMallBaseLib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E677D692609F6F77EEFD32DBD1EBF0B7 /* Pods-EMallBaseLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMallBaseLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E8B38689EBD176A4B54EF0DEAAE42BF2 /* EMallBaseLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EMallBaseLib.modulemap; sourceTree = "<group>"; };
-		F879B0AC303820D2B878175AA2F85E50 /* Pods-EMallBaseLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EMallBaseLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		A592A2D384A72012AB581CEAF05D6B4A /* Pods-EMallBaseLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMallBaseLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A9F975E3BBD124A828119ACC60BC0BD0 /* Pods-EMallBaseLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EMallBaseLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AB76D1D73126310273396AD8F40C9CD8 /* EMallBaseLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EMallBaseLib.modulemap; sourceTree = "<group>"; };
+		AF79BAAA4F0B8947D7326C9A16772885 /* EMallBaseLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EMallBaseLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C13E235246930293414B52B05E48B3E0 /* Pods-EMallBaseLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EMallBaseLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C3ACB586DE3A92D46FC2503EB8BBD089 /* EMallBaseLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EMallBaseLib.release.xcconfig; sourceTree = "<group>"; };
+		D17471CD41D0A0F26C966FA4DEE3C7B5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D6EDF6DBC798B606D33C950193E8370D /* Pods-EMallBaseLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EMallBaseLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		DD96CA02AC994B7459CA68F87FFC34DF /* Pods-EMallBaseLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EMallBaseLib_Example.modulemap"; sourceTree = "<group>"; };
+		EA1110C713B7F4DFE04BA5CBBE5E9355 /* EMallBaseLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = EMallBaseLib.bundle; path = "EMallBaseLib-EMallBaseLib.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F088A99358AFFADDD4E255AACC6C3AF3 /* EMallBaseLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMallBaseLib-dummy.m"; sourceTree = "<group>"; };
+		FA52C005DE041548534F3E6755A644FE /* ResourceBundle-EMallBaseLib-EMallBaseLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EMallBaseLib-EMallBaseLib-Info.plist"; sourceTree = "<group>"; };
+		FD8A5867931BE294FDE117CD5491C785 /* EMallBaseLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EMallBaseLib.debug.xcconfig; sourceTree = "<group>"; };
 		FE3D96CE8F98A9825683902AC9F1E254 /* EMallBaseLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EMallBaseLib.framework; path = EMallBaseLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2F04A5400070E15D45B8EDF1918D6524 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2301554CFA73936CBC2C449876DC54AD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		74FEB95438586A9304D06A68EDE63C47 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				375875F71D554B5E046AF8EFFB006264 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		82723D98AFF5BD587B962CAF39128A71 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -97,130 +82,144 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CBA369F0041A9EDD890F5F44FA4CC9F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7419250844CEB52DB8FB58C60A3DC7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31688B5FD55907015C7FB9B89AB361FE /* Foundation.framework in Frameworks */,
+				436806F693DE511CDCDC895DE9F22F50 /* MapKit.framework in Frameworks */,
+				D858673C9EDA1D77CEFA432A124DB7F0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07E59D4E9E667B9B94260E55794E2141 /* EMallBaseLib */ = {
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				26E4D6FF3931FC080BB9B975841CFAAC /* ReplaceMe.m */,
-				AAA1E66BB5D1A75D1EA7F08A10970D6C /* Pod */,
-				990F72A8DDB30EBD70427201BDA0F89A /* Support Files */,
+				AC90E5EBC833FCBC57C4D2FD1986197C /* iOS */,
 			);
-			name = EMallBaseLib;
-			path = ../..;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3C16983F90CD0013579F057CBD9A74D8 /* Products */ = {
+		45C14FCF6FB1582651C07703B78EDE62 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				FE3D96CE8F98A9825683902AC9F1E254 /* EMallBaseLib.framework */,
-				06991FB05B5FB3C0BBD35D8D39B4BE1E /* Pods_EMallBaseLib_Example.framework */,
-				D12D20924515A857C592FA99D418947D /* Pods_EMallBaseLib_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		47C32C0F7C039ED8B5DC5632406BF5D1 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B374028372F6591F1F246723D067159A /* Pods-EMallBaseLib_Example */,
-				5EAEFB76ADD5782E681F5F63A8F7AB32 /* Pods-EMallBaseLib_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		5EAEFB76ADD5782E681F5F63A8F7AB32 /* Pods-EMallBaseLib_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				AC526FFB59EA8E701756CE550A31A41C /* Pods-EMallBaseLib_Tests.modulemap */,
-				3783549D1D233138F35B20ED9C49D297 /* Pods-EMallBaseLib_Tests-acknowledgements.markdown */,
-				DEFEAC2657AE28F08270381BC4B7B98E /* Pods-EMallBaseLib_Tests-acknowledgements.plist */,
-				162107F8AAB3D3BC77B5487D90FCA132 /* Pods-EMallBaseLib_Tests-dummy.m */,
-				80D6A296E352536384279F647C5ACC10 /* Pods-EMallBaseLib_Tests-Info.plist */,
-				7C1EF1BE8467D70BED409D6282B410CD /* Pods-EMallBaseLib_Tests-umbrella.h */,
-				A19A26BD0BAA316F587E0698CD2FB8A7 /* Pods-EMallBaseLib_Tests.debug.xcconfig */,
-				E677D692609F6F77EEFD32DBD1EBF0B7 /* Pods-EMallBaseLib_Tests.release.xcconfig */,
-			);
-			name = "Pods-EMallBaseLib_Tests";
-			path = "Target Support Files/Pods-EMallBaseLib_Tests";
-			sourceTree = "<group>";
-		};
-		64B639CD5C505BD733F12DDDCC67100F /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				07E59D4E9E667B9B94260E55794E2141 /* EMallBaseLib */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		990F72A8DDB30EBD70427201BDA0F89A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E8B38689EBD176A4B54EF0DEAAE42BF2 /* EMallBaseLib.modulemap */,
-				4A4B8B1859B5F28890B1F9BEA8FC63FC /* EMallBaseLib-dummy.m */,
-				5C4DC938C1B1B406979DC431A4068BEB /* EMallBaseLib-Info.plist */,
-				696C865E9CA851EAC2FFF8AD36B7AC6F /* EMallBaseLib-prefix.pch */,
-				19BF48C1C9D8C0E5980069F7F4A9DA76 /* EMallBaseLib-umbrella.h */,
-				C533C8A73ED6664023C43F14858CB75C /* EMallBaseLib.debug.xcconfig */,
-				20D2179A66907923116A1AC3F8410085 /* EMallBaseLib.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/EMallBaseLib";
-			sourceTree = "<group>";
-		};
-		AAA1E66BB5D1A75D1EA7F08A10970D6C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				32E3F4C064230D38510A5D4E13B10C93 /* EMallBaseLib.podspec */,
-				9942053D3B089691014505F01C2848CA /* LICENSE */,
-				51EF7AE45622484B70023653240E2AA2 /* README.md */,
+				AF79BAAA4F0B8947D7326C9A16772885 /* EMallBaseLib.podspec */,
+				D17471CD41D0A0F26C966FA4DEE3C7B5 /* LICENSE */,
+				236B4E214669949F604541F96B22FB8C /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		B374028372F6591F1F246723D067159A /* Pods-EMallBaseLib_Example */ = {
+		71748FED8A0F27C8F12E899932CC944D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DA4F298987B0FA0A4CAD6C14893BC2EF /* Pods-EMallBaseLib_Example.modulemap */,
-				22F4F8EA8839F1F04B35DCE4E750D27D /* Pods-EMallBaseLib_Example-acknowledgements.markdown */,
-				CCB817CAF634A3895B4873B5606401E5 /* Pods-EMallBaseLib_Example-acknowledgements.plist */,
-				456BCCCFC407419540C87AEDB76DD5B5 /* Pods-EMallBaseLib_Example-dummy.m */,
-				DFEF6143E04B6BFCD75155E504B78D41 /* Pods-EMallBaseLib_Example-frameworks.sh */,
-				6B625684925195053D63563859CFB72E /* Pods-EMallBaseLib_Example-Info.plist */,
-				F879B0AC303820D2B878175AA2F85E50 /* Pods-EMallBaseLib_Example-umbrella.h */,
-				03FCA089805E074CE8BC1149DDBFF5CF /* Pods-EMallBaseLib_Example.debug.xcconfig */,
-				022D57E6317D2D1D6A9E694A5A33E126 /* Pods-EMallBaseLib_Example.release.xcconfig */,
+				8FC73223416D4ED3219E6A82B0DAEF9B /* Pods-EMallBaseLib_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8BAAD039BC8CA76A20E078C27FF06580 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF51FE11DD5252E6AEF2D573C17048E9 /* EMallBaseLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8FC73223416D4ED3219E6A82B0DAEF9B /* Pods-EMallBaseLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DD96CA02AC994B7459CA68F87FFC34DF /* Pods-EMallBaseLib_Example.modulemap */,
+				C13E235246930293414B52B05E48B3E0 /* Pods-EMallBaseLib_Example-acknowledgements.markdown */,
+				A9F975E3BBD124A828119ACC60BC0BD0 /* Pods-EMallBaseLib_Example-acknowledgements.plist */,
+				8E39874438C6439E57235C1C68434EBF /* Pods-EMallBaseLib_Example-dummy.m */,
+				79F52598EE1B3F765A9609EC4EAB1A8C /* Pods-EMallBaseLib_Example-frameworks.sh */,
+				5EC3987A7043FB49629AE0FB2BB6BFC0 /* Pods-EMallBaseLib_Example-Info.plist */,
+				D6EDF6DBC798B606D33C950193E8370D /* Pods-EMallBaseLib_Example-umbrella.h */,
+				058687E4CA36198B14076AE053B521EE /* Pods-EMallBaseLib_Example.debug.xcconfig */,
+				A592A2D384A72012AB581CEAF05D6B4A /* Pods-EMallBaseLib_Example.release.xcconfig */,
 			);
 			name = "Pods-EMallBaseLib_Example";
 			path = "Target Support Files/Pods-EMallBaseLib_Example";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		AC90E5EBC833FCBC57C4D2FD1986197C /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				52D890BC086331CFA5853025C62B1CD9 /* Foundation.framework */,
+				5463EDB7D7C34B483552ABC921A26BE3 /* MapKit.framework */,
+				5B31A15AEF545E8EBA9DB87FB9D5747D /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		BC7EFBC343A07A7C3FBE3AD036714DD4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB76D1D73126310273396AD8F40C9CD8 /* EMallBaseLib.modulemap */,
+				F088A99358AFFADDD4E255AACC6C3AF3 /* EMallBaseLib-dummy.m */,
+				4C17074CF1A0FDC5407009921495CBA1 /* EMallBaseLib-Info.plist */,
+				63D256A385E1CDA6D46A7DEB00E1D26A /* EMallBaseLib-prefix.pch */,
+				39BC33E472DE048FB1A393B8F4E7BE7E /* EMallBaseLib-umbrella.h */,
+				FD8A5867931BE294FDE117CD5491C785 /* EMallBaseLib.debug.xcconfig */,
+				C3ACB586DE3A92D46FC2503EB8BBD089 /* EMallBaseLib.release.xcconfig */,
+				FA52C005DE041548534F3E6755A644FE /* ResourceBundle-EMallBaseLib-EMallBaseLib-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EMallBaseLib";
+			sourceTree = "<group>";
+		};
+		BCD6033DF6559D4F9A5E352FD58F1F99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA1110C713B7F4DFE04BA5CBBE5E9355 /* EMallBaseLib.bundle */,
+				FE3D96CE8F98A9825683902AC9F1E254 /* EMallBaseLib.framework */,
+				06991FB05B5FB3C0BBD35D8D39B4BE1E /* Pods_EMallBaseLib_Example.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				64B639CD5C505BD733F12DDDCC67100F /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				3C16983F90CD0013579F057CBD9A74D8 /* Products */,
-				47C32C0F7C039ED8B5DC5632406BF5D1 /* Targets Support Files */,
+				8BAAD039BC8CA76A20E078C27FF06580 /* Development Pods */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				BCD6033DF6559D4F9A5E352FD58F1F99 /* Products */,
+				71748FED8A0F27C8F12E899932CC944D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D9B1C00CF0338BB46A6DD6B5336183A9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				4AC562E6E6FF087FB29B4DCB2855A1AA /* Media.xcassets */,
 			);
-			name = Frameworks;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EF51FE11DD5252E6AEF2D573C17048E9 /* EMallBaseLib */ = {
+			isa = PBXGroup;
+			children = (
+				16EFDA54E25DC04979CF8E8569639889 /* ReplaceMe.m */,
+				05DAF1FE303D0F13C52DC364E35B7F4B /* TestViewController.h */,
+				0AD558ACFABB1D3BA54861D206EFE611 /* TestViewController.m */,
+				45C14FCF6FB1582651C07703B78EDE62 /* Pod */,
+				D9B1C00CF0338BB46A6DD6B5336183A9 /* Resources */,
+				BC7EFBC343A07A7C3FBE3AD036714DD4 /* Support Files */,
+			);
+			name = EMallBaseLib;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,43 +233,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2101071D106EE198602784364154871F /* Headers */ = {
+		76019E7824551BEA75653E3741D7265B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7379A8DDA0B44056F83FB9E9B05BD922 /* Pods-EMallBaseLib_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF4757D25D04E3A686090AEDD160AD7E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F09F286D22C567FE34F8EA2CC406EF7A /* EMallBaseLib-umbrella.h in Headers */,
+				156DEC856F11D7B32D8327EB77ECF7B8 /* EMallBaseLib-umbrella.h in Headers */,
+				60F0360C685D1543FA3D1D2826DAB7DA /* TestViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		423F6ADF633C78B75B816C9BD08F1241 /* Pods-EMallBaseLib_Tests */ = {
+		39E26B0A76A7C3A7181B11B8E2FA470B /* EMallBaseLib-EMallBaseLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2BC9DA1A8E9BF3F2B5DEBE2EA29430EC /* Build configuration list for PBXNativeTarget "Pods-EMallBaseLib_Tests" */;
+			buildConfigurationList = 3B9BC12ABA495501747569F0058F22D0 /* Build configuration list for PBXNativeTarget "EMallBaseLib-EMallBaseLib" */;
 			buildPhases = (
-				2101071D106EE198602784364154871F /* Headers */,
-				48AFC4645A24131AB7E8F867707DFB38 /* Sources */,
-				2F04A5400070E15D45B8EDF1918D6524 /* Frameworks */,
-				BE4447812D72F343BC4C9934083A7DB6 /* Resources */,
+				1697E755526D6C7190DE3BA9948294FB /* Sources */,
+				CBA369F0041A9EDD890F5F44FA4CC9F3 /* Frameworks */,
+				39E9CB862536BAA8120F633AD979D456 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5D41BBDF6BAB9B55AD706C356C549AAC /* PBXTargetDependency */,
 			);
-			name = "Pods-EMallBaseLib_Tests";
-			productName = "Pods-EMallBaseLib_Tests";
-			productReference = D12D20924515A857C592FA99D418947D /* Pods_EMallBaseLib_Tests.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "EMallBaseLib-EMallBaseLib";
+			productName = "EMallBaseLib-EMallBaseLib";
+			productReference = EA1110C713B7F4DFE04BA5CBBE5E9355 /* EMallBaseLib.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		44DD98AF4929107B81622486779D83D0 /* Pods-EMallBaseLib_Example */ = {
 			isa = PBXNativeTarget;
@@ -293,16 +283,17 @@
 		};
 		83C22432031E1D79460DEAC0B37AB7EA /* EMallBaseLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DA05B57437AED5E329E4962DEAC0DC1 /* Build configuration list for PBXNativeTarget "EMallBaseLib" */;
+			buildConfigurationList = D9337D0429FBBA1F7A7CC7A82C2BFCDD /* Build configuration list for PBXNativeTarget "EMallBaseLib" */;
 			buildPhases = (
-				EF4757D25D04E3A686090AEDD160AD7E /* Headers */,
-				E9394AB65DC8FB628D27DC7D3256583D /* Sources */,
-				74FEB95438586A9304D06A68EDE63C47 /* Frameworks */,
-				8442F8325337CAE491EDAAD825384D2B /* Resources */,
+				76019E7824551BEA75653E3741D7265B /* Headers */,
+				DCE1FA27CCC4F0236ABEE7CE4500D44A /* Sources */,
+				D7419250844CEB52DB8FB58C60A3DC7E /* Frameworks */,
+				F0BC9671775734DB169C37715551097F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2849912BCF1D87E164C31DCB111277DD /* PBXTargetDependency */,
 			);
 			name = EMallBaseLib;
 			productName = EMallBaseLib;
@@ -327,18 +318,26 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 3C16983F90CD0013579F057CBD9A74D8 /* Products */;
+			productRefGroup = BCD6033DF6559D4F9A5E352FD58F1F99 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				83C22432031E1D79460DEAC0B37AB7EA /* EMallBaseLib */,
+				39E26B0A76A7C3A7181B11B8E2FA470B /* EMallBaseLib-EMallBaseLib */,
 				44DD98AF4929107B81622486779D83D0 /* Pods-EMallBaseLib_Example */,
-				423F6ADF633C78B75B816C9BD08F1241 /* Pods-EMallBaseLib_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		39E9CB862536BAA8120F633AD979D456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E07068D9296B81833CCB261736FAAEF /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7249859AE4B9342546A45CF6ACDEC12D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -346,28 +345,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8442F8325337CAE491EDAAD825384D2B /* Resources */ = {
+		F0BC9671775734DB169C37715551097F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BE4447812D72F343BC4C9934083A7DB6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				EEA0580F6E9E73D45FFB42DC88067FAF /* EMallBaseLib.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		48AFC4645A24131AB7E8F867707DFB38 /* Sources */ = {
+		1697E755526D6C7190DE3BA9948294FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63B3F67C3B71FC93E8693B4E907843AE /* Pods-EMallBaseLib_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,23 +371,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9394AB65DC8FB628D27DC7D3256583D /* Sources */ = {
+		DCE1FA27CCC4F0236ABEE7CE4500D44A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				224AFC7F484BA5AAF356BE80F9D62F9D /* EMallBaseLib-dummy.m in Sources */,
-				22AF9BB57CCCCE00A545B63A0DA6E125 /* ReplaceMe.m in Sources */,
+				910E7B0C28D11A350BA8894BD9AAA814 /* EMallBaseLib-dummy.m in Sources */,
+				1C81AC4A74F9295D06E2FFD99374FE84 /* ReplaceMe.m in Sources */,
+				CBAC5ABB19C5546B63CA71AB8A5E79A7 /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5D41BBDF6BAB9B55AD706C356C549AAC /* PBXTargetDependency */ = {
+		2849912BCF1D87E164C31DCB111277DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-EMallBaseLib_Example";
-			target = 44DD98AF4929107B81622486779D83D0 /* Pods-EMallBaseLib_Example */;
-			targetProxy = E465F7341B6D917C9347ED8F98213066 /* PBXContainerItemProxy */;
+			name = "EMallBaseLib-EMallBaseLib";
+			target = 39E26B0A76A7C3A7181B11B8E2FA470B /* EMallBaseLib-EMallBaseLib */;
+			targetProxy = 0AC0F4D65F464158D9E71100545FC600 /* PBXContainerItemProxy */;
 		};
 		7D225783649E214BB8A1F407065E4002 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -406,11 +399,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0BCFB7FA421071E151E47C67AD91787D /* Debug */ = {
+		13B280486AB1DB6EC02A1F62D938219E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A19A26BD0BAA316F587E0698CD2FB8A7 /* Pods-EMallBaseLib_Tests.debug.xcconfig */;
+			baseConfigurationReference = FD8A5867931BE294FDE117CD5491C785 /* EMallBaseLib.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -420,24 +412,40 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EMallBaseLib_Tests/Pods-EMallBaseLib_Tests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/EMallBaseLib/EMallBaseLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EMallBaseLib/EMallBaseLib-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EMallBaseLib_Tests/Pods-EMallBaseLib_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/EMallBaseLib/EMallBaseLib.modulemap";
+				PRODUCT_MODULE_NAME = EMallBaseLib;
+				PRODUCT_NAME = EMallBaseLib;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		15341E0FC044F22F439B4D49FA65DE48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3ACB586DE3A92D46FC2503EB8BBD089 /* EMallBaseLib.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EMallBaseLib";
+				IBSC_MODULE = EMallBaseLib;
+				INFOPLIST_FILE = "Target Support Files/EMallBaseLib/ResourceBundle-EMallBaseLib-EMallBaseLib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = EMallBaseLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -499,43 +507,9 @@
 			};
 			name = Release;
 		};
-		5E2636C5E0A05FB650FCB0D8010C9084 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E677D692609F6F77EEFD32DBD1EBF0B7 /* Pods-EMallBaseLib_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EMallBaseLib_Tests/Pods-EMallBaseLib_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EMallBaseLib_Tests/Pods-EMallBaseLib_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		64F506663C127C582E1855C0383FE4C8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 022D57E6317D2D1D6A9E694A5A33E126 /* Pods-EMallBaseLib_Example.release.xcconfig */;
+			baseConfigurationReference = A592A2D384A72012AB581CEAF05D6B4A /* Pods-EMallBaseLib_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -560,6 +534,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A3E77E0BDC63674CEEC5FBEE069BFA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3ACB586DE3A92D46FC2503EB8BBD089 /* EMallBaseLib.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EMallBaseLib/EMallBaseLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EMallBaseLib/EMallBaseLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EMallBaseLib/EMallBaseLib.modulemap";
+				PRODUCT_MODULE_NAME = EMallBaseLib;
+				PRODUCT_NAME = EMallBaseLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -631,72 +637,26 @@
 			};
 			name = Debug;
 		};
-		900A18B974271EB011705C35AD944FF2 /* Debug */ = {
+		D873DFA1582F1DD0D97CECCE3350BEDF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C533C8A73ED6664023C43F14858CB75C /* EMallBaseLib.debug.xcconfig */;
+			baseConfigurationReference = FD8A5867931BE294FDE117CD5491C785 /* EMallBaseLib.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EMallBaseLib/EMallBaseLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EMallBaseLib/EMallBaseLib-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EMallBaseLib";
+				IBSC_MODULE = EMallBaseLib;
+				INFOPLIST_FILE = "Target Support Files/EMallBaseLib/ResourceBundle-EMallBaseLib-EMallBaseLib-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EMallBaseLib/EMallBaseLib.modulemap";
-				PRODUCT_MODULE_NAME = EMallBaseLib;
 				PRODUCT_NAME = EMallBaseLib;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		A357962CEC862673015B77FF6C4B5D07 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20D2179A66907923116A1AC3F8410085 /* EMallBaseLib.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EMallBaseLib/EMallBaseLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EMallBaseLib/EMallBaseLib-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EMallBaseLib/EMallBaseLib.modulemap";
-				PRODUCT_MODULE_NAME = EMallBaseLib;
-				PRODUCT_NAME = EMallBaseLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		E23DD65628CA63D24BE00A8755B711AC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03FCA089805E074CE8BC1149DDBFF5CF /* Pods-EMallBaseLib_Example.debug.xcconfig */;
+			baseConfigurationReference = 058687E4CA36198B14076AE053B521EE /* Pods-EMallBaseLib_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -730,11 +690,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2BC9DA1A8E9BF3F2B5DEBE2EA29430EC /* Build configuration list for PBXNativeTarget "Pods-EMallBaseLib_Tests" */ = {
+		3B9BC12ABA495501747569F0058F22D0 /* Build configuration list for PBXNativeTarget "EMallBaseLib-EMallBaseLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0BCFB7FA421071E151E47C67AD91787D /* Debug */,
-				5E2636C5E0A05FB650FCB0D8010C9084 /* Release */,
+				D873DFA1582F1DD0D97CECCE3350BEDF /* Debug */,
+				15341E0FC044F22F439B4D49FA65DE48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -757,11 +717,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DA05B57437AED5E329E4962DEAC0DC1 /* Build configuration list for PBXNativeTarget "EMallBaseLib" */ = {
+		D9337D0429FBBA1F7A7CC7A82C2BFCDD /* Build configuration list for PBXNativeTarget "EMallBaseLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				900A18B974271EB011705C35AD944FF2 /* Debug */,
-				A357962CEC862673015B77FF6C4B5D07 /* Release */,
+				13B280486AB1DB6EC02A1F62D938219E /* Debug */,
+				7A3E77E0BDC63674CEEC5FBEE069BFA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

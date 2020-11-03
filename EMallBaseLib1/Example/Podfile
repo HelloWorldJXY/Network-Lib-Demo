@@ -5,9 +5,9 @@ platform :ios, '8.0'
 target 'EMallBaseLib_Example' do
   pod 'EMallBaseLib', :path => '../'
 
-  target 'EMallBaseLib_Tests' do
-    inherit! :search_paths
-
-    
-  end
+#  target 'EMallBaseLib_Tests' do
+#    inherit! :search_paths
+#
+#    
+#  end
 end

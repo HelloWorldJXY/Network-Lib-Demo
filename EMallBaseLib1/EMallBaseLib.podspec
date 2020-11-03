@@ -32,11 +32,11 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'EMallBaseLib/Classes/**/*'
       
-  # s.resource_bundles = {
-  #   'EMallBaseLib' => ['EMallBaseLib/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'EMallBaseLib' => ['EMallBaseLib/Assets/**/*.{xcassets}']
+   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.public_header_files = 'EMallBaseLib/Classes/**/*.h'
+   s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'EMallProductDetailLib', '~> 1.1.0'
 end

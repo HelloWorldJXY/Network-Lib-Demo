@@ -7,6 +7,7 @@
 //
 
 #import "EMALLViewController.h"
+#import <EMallBaseLib/TestViewController.h>
 
 @interface EMALLViewController ()
 
@@ -25,5 +26,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [self presentViewController:[TestViewController new] animated:YES completion:nil];
+}
 @end

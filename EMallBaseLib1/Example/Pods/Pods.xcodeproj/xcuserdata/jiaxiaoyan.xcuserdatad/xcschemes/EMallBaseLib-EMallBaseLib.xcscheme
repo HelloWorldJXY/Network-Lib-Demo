@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "423F6ADF633C78B75B816C9BD08F1241"
-               BuildableName = "Pods_EMallBaseLib_Tests.framework"
-               BlueprintName = "Pods-EMallBaseLib_Tests"
+               BlueprintIdentifier = "39E26B0A76A7C3A7181B11B8E2FA470B"
+               BuildableName = "EMallBaseLib.bundle"
+               BlueprintName = "EMallBaseLib-EMallBaseLib"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

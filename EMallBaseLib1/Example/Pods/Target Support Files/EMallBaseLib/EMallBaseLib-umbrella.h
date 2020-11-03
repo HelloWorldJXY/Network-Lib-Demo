@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "TestViewController.h"
 
 FOUNDATION_EXPORT double EMallBaseLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char EMallBaseLibVersionString[];
